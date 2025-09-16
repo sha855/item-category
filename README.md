@@ -21,15 +21,6 @@ cp .env.example .env
 
 ## 3. Install & Setup Laravel Sanctum
 
-##Sanctum is required for API token authentication.
-
-composer require laravel/sanctum
-
-
-## Publish the Sanctum configuration and migration:
-
-php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
-
 
 ## Run all migrations (this will create users, categories, items, and personal_access_tokens tables):
 
