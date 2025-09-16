@@ -19,7 +19,7 @@ composer install
 cp .env.example .env
 
 
-## 3. Install & Setup Laravel Sanctum
+## 3. Migrate
 
 
 ## Run all migrations (this will create users, categories, items, and personal_access_tokens tables):
